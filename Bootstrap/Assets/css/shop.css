@@ -1,0 +1,18 @@
+.input-search input {
+    border-radius: 930px;
+}
+.btn-cart {
+    width: 100%;
+    bottom: 128px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-cart button {
+    background-color: #EC1B1B;
+    color: #000;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 12px;
+}

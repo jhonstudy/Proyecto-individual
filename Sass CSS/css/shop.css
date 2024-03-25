@@ -1,0 +1,113 @@
+button:hover {
+  cursor: pointer;
+}
+
+.shop-content {
+  margin: 40px 100px 0 100px;
+}
+
+.shop-content .title-page {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #252A2B;
+}
+
+.shop-content .search-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.shop-content .search-section .filter-search {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  position: relative;
+}
+
+.shop-content .search-section .filter-search i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.shop-content .search-section .input-search input {
+  border-radius: 930px;
+  padding: 10px 40px 10px 10px;
+  width: 320px;
+  height: 30px;
+  font-size: 20px;
+  border: solid 1px #000;
+}
+
+.shop-content .search-section .input-search i {
+  position: absolute;
+  top: 234px;
+  right: 112px;
+  font-size: 23px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.products .item {
+  /* border: solid 1px red; */
+  width: 386px;
+  height: 500px;
+  box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.products .item .info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.products .item .info .text {
+  font-weight: 600;
+  width: 100%;
+  height: 44px;
+}
+
+.products .item .info .btn-cart {
+  width: 100%;
+  /* position: absolute; */
+  bottom: 128px;
+  display: flex;
+  /* float: right; */
+  justify-content: flex-end;
+}
+
+.products .item .info .btn-cart button {
+  background-color: #EC1B1B;
+  color: #000;
+  border: none;
+  padding: 11px;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .shop-content {
+    margin: 20px 0 0 0;
+  }
+  .shop-content .search-section {
+    flex-direction: column;
+    padding: 0 20px;
+    align-items: center;
+  }
+  .input-search i {
+    display: none;
+  }
+  .shop-content .search-section .filter-search {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=shop.css.map */
